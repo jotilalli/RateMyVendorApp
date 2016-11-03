@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RateMyVendorApp</string>
+    <string name="browse_vendors">Browse Vendors</string>
+    <string name="log_in">Log In</string>
+    <string name="rate_my_vendor">Rate My Vendor</string>
+    <string name="e_mail">e-mail</string>
+    <string name="or">or</string>
+    <string name="password">password</string>
 </resources>
