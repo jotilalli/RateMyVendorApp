@@ -11,5 +11,14 @@
     <string name="last_name">Last Name</string>
     <string name="location">Location</string>
     <string name="find_a_vendor">Find a Vendor</string>
+    <string name="post_a_review">Post a Review</string>
+    <string name="presentation">Presentation:</string>
+    <string name="service">Service:</string>
+    <string name="price">Price:</string>
+    <string name="overall">Experience:</string>
+    <string name="additional_comments">Additional Comments</string>
+    <string name="professionalism">Professional:</string>
+    <string name="add_comment">Add Comment..</string>
+    <string name="submitBtn">Submit</string>
 
 </resources>

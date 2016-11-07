@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".signUp" />
-        <activity android:name=".findVendor"></activity>
+        <activity android:name=".findVendor" />
+        <activity android:name=".submitReview"></activity>
     </application>
 
 </manifest>
