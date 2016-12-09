@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ratemyvendorapp.MainActivity"
+    tools:context="com.example.ratemyvendorapp.AdminLoginPage"
     android:weightSum="1"
     android:orientation="vertical">
 
@@ -20,48 +19,8 @@
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:fontFamily="casual"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorAccent"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sign_up"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        android:fontFamily="casual"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="20dp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:textSize="24sp"
-        tools:ignore="LabelFor"
-        android:layout_marginTop="20dp"
-        android:hint="@string/first_name"
-        android:id="@+id/etFirstName" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:textSize="24sp"
-        tools:ignore="LabelFor"
-        android:hint="@string/last_name"
-        android:id="@+id/etLastName" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:textSize="24sp"
-        tools:ignore="LabelFor"
-        android:hint="@string/location"
-        android:id="@+id/etLocation" />
 
     <EditText
         android:layout_width="match_parent"
@@ -73,8 +32,7 @@
         android:textSize="24sp"
         android:labelFor="@+id/signinBtn"
         tools:ignore="LabelFor"
-        android:hint="@string/e_mail"
-        android:id="@+id/etEmail" />
+        android:hint="@string/e_mail" />
 
     <EditText
         android:layout_width="match_parent"
@@ -82,23 +40,21 @@
         android:inputType="textPassword"
         android:ems="10"
         android:textSize="24sp"
-        android:hint="@string/password"
-        android:id="@+id/etPassword" />
+        android:labelFor="@+id/signinBtn"
+        tools:ignore="LabelFor"
+        android:hint="@string/password" />
 
     <Button
-        android:text="@string/sign_up"
+        android:text="@string/log_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/AdminSigninBtn"
         android:fontFamily="casual"
         android:textStyle="normal|bold"
         android:textSize="18sp"
         android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="?android:attr/colorAccent"
-        tools:targetApi="lollipop"
-        android:id="@+id/bSignUp"
-        android:onClick="BasicToast"/>
-
-
-
+        tools:ignore="NewApi" />
 </LinearLayout>

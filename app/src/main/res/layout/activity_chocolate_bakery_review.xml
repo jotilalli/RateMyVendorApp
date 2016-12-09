@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
@@ -13,18 +12,31 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.example.ratemyvendorapp.submitReview"
+        tools:context="com.example.ratemyvendorapp.chocolateBakeryReview"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/postReviewTitle"
+            android:id="@+id/ChocolateBakery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:text="@string/post_a_review"
+            android:text="Chocolate Bakery"
             android:textColor="@color/colorAccent"
             android:textSize="30sp"
             android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/submitNewReviewBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/submit_a_new_review_here"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            tools:targetApi="lollipop"
+            android:layout_marginTop="20dp" />
 
 
         <TextView
@@ -38,11 +50,14 @@
             android:textSize="30sp"
             android:textStyle="normal|bold" />
 
-        <RatingBar
-            android:id="@+id/presentationRating"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="2 / 5"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="end" />
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:id="@+id/presentationResult" />
 
         <TextView
             android:id="@+id/serviceTitle"
@@ -56,12 +71,15 @@
             android:textStyle="normal|bold"
             tools:ignore="RelativeOverlap" />
 
-
-        <RatingBar
-            android:id="@+id/serviceRating"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="3.5 / 5"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="end" />
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:id="@+id/serviceResult" />
+
 
         <TextView
             android:id="@+id/priceTitle"
@@ -75,11 +93,15 @@
             android:textStyle="normal|bold"
             tools:ignore="RelativeOverlap" />
 
-        <RatingBar
-            android:id="@+id/priceRating"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="2.5 / 5"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="end" />
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:id="@+id/priceResult" />
+
 
         <TextView
             android:id="@+id/professionalTitle"
@@ -93,11 +115,15 @@
             android:textStyle="normal|bold"
             tools:ignore="RelativeOverlap" />
 
-        <RatingBar
-            android:id="@+id/professionalRating"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="3.5 / 5"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="end" />
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textSize="20sp"
+            android:id="@+id/professionalResult" />
+
 
         <TextView
             android:id="@+id/OverallTitle"
@@ -111,50 +137,16 @@
             android:textStyle="normal|bold"
             tools:ignore="RelativeOverlap" />
 
-        <RatingBar
-            android:id="@+id/overallRating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end" />
-
-
         <TextView
-            android:id="@+id/addCommentsTitle"
-            android:layout_width="wrap_content"
+            android:text="3.5 / 5"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:fontFamily="casual"
-            android:text="@string/additional_comments"
-            android:textAlignment="center"
-            android:textColor="@color/colorAccent"
-            android:textSize="30sp"
-            android:textStyle="normal|bold"
-            tools:ignore="RelativeOverlap" />
+            android:textSize="20sp"
+            android:id="@+id/overallResult" />
 
-        <EditText
-            android:id="@+id/commentBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:ems="20"
-            android:hint="@string/add_comment"
-            android:inputType="textMultiLine"
-            android:textColor="?attr/colorAccent" />
 
-        <Button
-            android:id="@+id/submitReviewBtn"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:text="@string/submitBtn"
-            android:textColor="?android:attr/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="normal|bold"
-            tools:targetApi="lollipop"
-
-            android:layout_marginTop="20dp"
-            android:onClick="BasicToast2"/>
 
     </LinearLayout>
 </ScrollView>

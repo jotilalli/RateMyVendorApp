@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.ratemyvendorapp.submitReview"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myReviewsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/reviews_i_ve_posted"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/original_cakerie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/originalCakerieReviewVIew"
+            android:paddingTop="20dp" />
+
+        <Button
+            android:text="@string/view_this_post"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/btn_viewPost1" />
+
+        <Button
+            android:text="@string/edit_this_post"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/btn_editPost1" />
+
+
+        <TextView
+            android:text="@string/rockin_dj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/djReviewVoew"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:text="@string/view_this_post2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/btn_viewPost2" />
+
+        <Button
+            android:text="@string/edit_this_post2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="?android:attr/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/btn_editPost2" />
+
+    </LinearLayout>
+</ScrollView>

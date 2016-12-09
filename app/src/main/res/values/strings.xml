@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RateMyVendorApp</string>
+    <string name="app_name">Rate My Vendor</string>
     <string name="browse_vendors">Browse Vendors</string>
     <string name="log_in">Log In</string>
     <string name="rate_my_vendor">Rate My Vendor</string>
@@ -15,10 +15,39 @@
     <string name="presentation">Presentation:</string>
     <string name="service">Service:</string>
     <string name="price">Price:</string>
-    <string name="overall">Experience:</string>
+    <string name="overall">Overall Experience:</string>
     <string name="additional_comments">Additional Comments</string>
-    <string name="professionalism">Professional:</string>
+    <string name="professionalism">Professionalism:</string>
     <string name="add_comment">Add Comment..</string>
     <string name="submitBtn">Submit</string>
+    <string name="submit_a_new_review_here">Submit Your Review Here</string>
+    <string name="edit_this_post">Edit This Post</string>
+    <string name="edit_this_post2">Edit This Post</string>
+    <string name="original_cakerie">Original Cakerie</string>
+    <string name="reviews_i_ve_posted">Reviews I\'ve Posted</string>
+    <string name="rockin_dj">Rockin\' DJ</string>
+    <string name="view_this_post">View This Post</string>
+    <string name="view_this_post2">View This Post</string>
+    <string name="vendor">Vendor</string>
+    <string name="ignore">Ignore</string>
+    <string name="ignore2">Ignore</string>
+    <string name="lalalalalalalalalala">Lalalalalalalalalala</string>
+    <string name="original_cakerie2">Original Cakerie</string>
+    <string name="remove">Remove</string>
+    <string name="remove2">Remove</string>
+    <string name="reports">Reports</string>
+    <string name="rockin_dj2">Rockin\' DJ</string>
+    <string name="this_place_was_a_and">This place was a #@!^ and....</string>
+    <string name="vendor2">Vendor</string>
+    <string name="edit_this_post3">Edit This Post</string>
+    <string name="edit_this_post4">Edit This Post</string>
+    <string name="original_cakerie3">Original Cakerie</string>
+    <string name="totalpresentation">Totalpresentation</string>
+    <string name="vendor_review">Vendor Review</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="search_vendor">Submit A Vendor Review</string>
+    <string name="view_reports">View Reports</string>
+    <string name="welcome_admin">Welcome, Admin</string>
+
 
 </resources>

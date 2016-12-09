@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 <!--    <TextView
-        android:text="@string/vendor"
+        android:text="Vendor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/vendorItem"
@@ -14,16 +13,13 @@
         android:textAlignment="center"
         android:lineSpacingExtra="8sp" />-->
     <Button
-        android:text="@string/vendor"
+        android:text="@string/vendor2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:textStyle="normal|bold"
         android:textSize="18sp"
-        android:layout_marginTop="20dp"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="?android:attr/colorAccent"
-        tools:targetApi="lollipop"
-        android:id="@+id/vendorItem"
-        tools:ignore="NewApi" />
+        android:id="@+id/vendorItem" />
 </LinearLayout>

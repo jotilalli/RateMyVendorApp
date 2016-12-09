@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ratemyvendorapp.MainActivity"
+    tools:context="com.example.ratemyvendorapp.vendorList"
     android:weightSum="1"
     android:orientation="vertical">
 
@@ -21,94 +21,59 @@
         android:fontFamily="casual"
         android:textColor="@color/colorAccent"/>
 
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:layout_marginTop="28dp"
-        android:fontFamily="sans-serif"
-        android:textSize="24sp"
-        android:labelFor="@+id/signinBtn"
-        tools:ignore="LabelFor"
-        android:hint="@string/e_mail" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:textSize="24sp"
-        android:labelFor="@+id/signinBtn"
-        tools:ignore="LabelFor"
-        android:hint="@string/password" />
-
     <Button
-        android:text="@string/log_in"
+        android:text="@string/original_cakerie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/signinBtn"
+        android:id="@+id/btnoriginalCakerie"
         android:fontFamily="casual"
         android:textStyle="normal|bold"
         android:textSize="18sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:textColor="?android:attr/colorAccent"
-        tools:ignore="NewApi" />
-
-    <Button
-        android:text="@string/sign_up"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/signup2Btn"
-        android:fontFamily="casual"
-        android:textStyle="normal|bold"
-        android:textSize="18sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="?android:attr/colorAccent"
         tools:targetApi="lollipop" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/or"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:fontFamily="casual"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp" />
-
     <Button
-        android:text="@string/browse_vendors"
+        android:text="Elite Decor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/browseBtn"
-        android:fontFamily="casual"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:textColor="?android:attr/colorAccent"
-        tools:ignore="NewApi" />
-
-    <Button
-        android:text="Admin Login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnAdminLogin"
+        android:id="@+id/btnEliteDecor"
         android:fontFamily="casual"
         android:textStyle="normal|bold"
         android:textSize="18sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="?android:attr/colorAccent"
-        tools:ignore="NewApi" />
+        tools:targetApi="lollipop" />
 
+    <Button
+        android:text="Chocolate Bakery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnChocolateBakery"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="?android:attr/colorAccent"
+        tools:targetApi="lollipop" />
 
-
+    <Button
+        android:text="@string/rockin_dj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRockinDj"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="?android:attr/colorAccent"
+        tools:targetApi="lollipop" />
 </LinearLayout>
