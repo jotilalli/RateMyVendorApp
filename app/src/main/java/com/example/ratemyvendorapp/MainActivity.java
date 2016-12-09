@@ -8,16 +8,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button signup2button;
-    public Button browseBtn;
-    public Button signinBtn;
+    private Button signup2button;
+    private Button browseBtn;
+    private Button signinBtn;
+    private Button adminloginBtn;
 
-    public void eventHandler(){
+    private void eventHandler(){
 
         signup2button = (Button) findViewById(R.id.signup2Btn);
         browseBtn = (Button) findViewById(R.id.browseBtn);
         signinBtn = (Button) findViewById(R.id.signinBtn);
-
+        adminloginBtn = (Button) findViewById(R.id.btnAdminLogin);
 
 
         signup2button.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         signinBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent signin = new Intent(MainActivity.this, findVendor.class);
+                Intent signin = new Intent(MainActivity.this, mainMenu.class);
+                startActivity(signin);
+            }
+        });
+
+        adminloginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signin = new Intent(MainActivity.this, AdminLoginPage.class);
                 startActivity(signin);
             }
         });

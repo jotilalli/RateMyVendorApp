@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_this_post">Edit This Post</string>
+    <string name="edit_this_post2">Edit This Post</string>
+    <string name="reviews_i_ve_posted">Reviews I\'ve Posted</string>
+    <string name="vendor">Vendor</string>
+    <string name="ignore">Ignore</string>
+</resources>
